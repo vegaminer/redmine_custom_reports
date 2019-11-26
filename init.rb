@@ -17,7 +17,8 @@ Redmine::Plugin.register :redmine_custom_reports do
        :custom_reports,
        { controller: 'custom_reports', action: 'index' },
        param:  :project_id,
-       before: :settings
+       before: :settings,
+       caption: :label_custom_report_plural
 end
 
 # Require plugin after register
