@@ -1,4 +1,6 @@
 ru:
+  project_module_custom_reports: Пользовательские отчёты
+
   label_custom_report_plural: "Отчеты"
   label_custom_report_view_all: "Список всех отчетов"
   label_custom_report_new: "Добавить новый отчет"
